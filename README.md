@@ -1,3 +1,12 @@
+Integrantes:
+
+Milton Andrés Mesa 202022496 - ma.mesam1@uniandes.edu.co Santiago 
+Moncada Mejía 202112143 - s.moncadam@uniandes.edu.co
+
+
+
+
+
 #ISIS1225 - Estructura de un proyecto
 
 Este proyecto busca mostrar una posible forma de organizar el código que se va a desarrollar en los proyectos del curso.

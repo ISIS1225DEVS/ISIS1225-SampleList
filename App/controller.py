@@ -3,7 +3,7 @@
  * Universidad de Los Andes
  *
  *
- * Desarrolado para el curso ISIS1225 - Estructuras de Datos y Algoritmos
+ * Desarrollado para el curso ISIS1225 - Estructuras de Datos y Algoritmos
  *
  *
  * This program is free software: you can redistribute it and/or modify
@@ -17,7 +17,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along withthis program.  If not, see <http://www.gnu.org/licenses/>.
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * Contribuciones
  *
@@ -107,7 +107,7 @@ def sortBooks(catalog):
 
 def getBooksByAuthor(control, authorname):
     """
-    Retrona los libros de un autor
+    Retorna los libros de un autor
     """
     author = model.getBooksByAuthor(control['model'], authorname)
     return author

@@ -3,7 +3,7 @@
  * de Los Andes
  *
  *
- * Desarrolado para el curso ISIS1225 - Estructuras de Datos y Algoritmos
+ * Desarrollado para el curso ISIS1225 - Estructuras de Datos y Algoritmos
  *
  *
  * This program is free software: you can redistribute it and/or modify
@@ -17,7 +17,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along withthis program.  If not, see <http://www.gnu.org/licenses/>.
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * Contribuciones
  *
@@ -33,7 +33,7 @@ assert cf
 
 """
 La vista se encarga de la interacción con el usuario
-Presenta el menu de opciones  y  por cada seleccion
+Presenta el menu de opciones y por cada selección
 se hace la solicitud al controlador para ejecutar la
 operación solicitada
 """
@@ -70,7 +70,7 @@ def loadData(control):
 def printAuthorData(author):
     """
     Recorre la lista de libros de un autor, imprimiendo
-    la informacin solicitada.
+    la información solicitada.
     """
     if author:
         print('Autor encontrado: ' + author['name'])
@@ -79,7 +79,7 @@ def printAuthorData(author):
         for book in lt.iterator(author['books']):
             print('Titulo: ' + book['title'] + '  ISBN: ' + book['isbn'])
     else:
-        print('No se encontro el autor')
+        print('No se encontró el autor')
 
 
 def printBestBooks(books):

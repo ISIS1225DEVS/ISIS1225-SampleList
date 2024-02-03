@@ -3,7 +3,7 @@
  * Universidad de Los Andes
  *
  *
- * Desarrolado para el curso ISIS1225 - Estructuras de Datos y Algoritmos
+ * Desarrollado para el curso ISIS1225 - Estructuras de Datos y Algoritmos
  *
  *
  * This program is free software: you can redistribute it and/or modify
@@ -17,7 +17,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along withthis program.  If not, see <http://www.gnu.org/licenses/>.
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * Contribuciones:
  *
@@ -41,10 +41,10 @@ y otra para géneros
 
 def newCatalog():
     """
-    Inicializa el catálogo de libros. Crea una lista vacia para guardar
-    todos los libros, adicionalmente, crea una lista vacia para los autores,
-    una lista vacia para los generos y una lista vacia para la asociación
-    generos y libros. Retorna el catalogo inicializado.
+    Inicializa el catálogo de libros. Crea una lista vacía para guardar
+    todos los libros, adicionalmente, crea una lista vacía para los autores,
+    una lista vacía para los géneros y una lista vacía para la asociación
+    géneros y libros. Retorna el catalogo inicializado.
     """
     catalog = {'books': None,
                'authors': None,
@@ -125,7 +125,7 @@ def newAuthor(name):
 
 def newTag(name, id):
     """
-    Esta estructura almancena los tags utilizados para marcar libros.
+    Esta estructura almacena los tags utilizados para marcar libros.
     """
     tag = {'name': '', 'tag_id': ''}
     tag['name'] = name
